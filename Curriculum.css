@@ -1,0 +1,158 @@
+body {
+    background-image: url("https://iili.io/J9AzUfs.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: rgb(77, 74, 74);
+    color: #f4f0ec;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Margem {
+    margin: 2%;
+}
+
+.Tudo {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 100%;
+    margin: 2%;
+}
+
+.Topo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.Esquerdinho {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+.Direitinho {
+    display: flex;
+    width: 40%;
+    height: auto;
+    align-items: center;
+}
+
+.Nome {
+    display: flex;
+    justify-content: center;
+}
+
+.Links {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.LinkSocial {
+    color: #1e90ff ;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.Nome1 {
+    color: white;
+    justify-content: center;
+}
+
+.TelEmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Tel, .Email {
+    margin-left: 2%;
+}
+
+.Icone {
+    display: flex;;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px white solid;
+    width: 150px;
+    height: 150px;
+}
+
+.Bordas {
+    border: 2px #696969 solid;
+    margin-top: 1%;
+    border-radius: 5%
+}
+
+.Paralelos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Objetivo {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+}
+
+.TxtObj {
+    display: flex;
+    font-size: 15px;
+}
+
+.Title {
+    color: white;
+    font-weight: bold;
+    font-size: 115%;
+}
+
+.SubTitle{
+    color: #e5e4e2;
+    font-size: 105%;
+    font-weight: bold;
+}
+
+.Text {
+    font-size: 95%;
+    text-decoration: none;
+}
+
+.LinkCert {
+    text-decoration: none;
+    color: #f4f0ec;
+}
+
+.Cargos {
+    font-size: 85%;
+    margin-left: 3%;
+}
+
+.Exp, .Formacao {
+    display: flex;
+    border: 1px #696969 solid;
+    flex-direction: column;
+    margin: 2%;
+    width: 50%;
+    border-radius: 10%
+}
+
+.Empresa1, .Faculdade1{
+    margin: 1%;
+    margin-left: 1.5%;
+}
+
+.SuperTitle {
+    font-weight: bold;
+    color: white;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
